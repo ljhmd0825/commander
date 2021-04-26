@@ -53,6 +53,7 @@ if(CMAKE_BUILD_TYPE MATCHES "Release")
 endif()
 
 set(DinguxCommander_SRCS
+  axis_direction.cpp
   commander.cpp
   config.cpp
   controller_buttons.cpp
